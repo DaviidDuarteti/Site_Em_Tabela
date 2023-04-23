@@ -1,0 +1,110 @@
+body{
+
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+
+main{
+    width: 800px;
+    height: max-content;
+    margin: auto;
+    background-color: white;
+}
+
+table{
+  width: 800px;
+  border-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+tr, td{
+    width: 800px;
+
+}
+
+.logo img{
+    width: 200px;
+
+}
+
+.nav{
+    background-color: bisque;
+    border-bottom: 3px solid #A8534B;
+    height: 60px;
+}
+
+.nav ul{
+
+    list-style: none;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(99, 91, 91);
+}
+
+.nav a:hover{
+    font-size: 13px;
+    color: white;
+    border-top: 1px solid black;
+}
+
+.active{
+    border-top: 1px solid black;
+}
+
+.nav ul li{
+
+    
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img3 img{
+    width: 798px;
+    height: 200px;
+    border-bottom: 3px solid #A8534B;
+}
+
+
+
+.conteudo img{
+
+    width: 500px;
+    
+}
+
+.conteudo td{
+
+    text-align: center;
+    border-bottom: 3px solid #A8534B;
+}
+
+h2{
+    color: #A8534B;
+    font-weight: bold;
+    border-bottom: 1px solid #A8534B;
+    width: max-content;
+    margin: auto;   
+}
+
+.conteudo2{
+    height: 200px;
+    text-align: center;
+}
+
+.footer{
+    height: 60px;
+    text-align: center;
+    background-color: #A8534B;
+    color: white;
+}
